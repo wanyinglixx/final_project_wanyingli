@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Python package that returns the total country lending projects from the World Bank and the Asian Development Bank."
 authors = ["Wanyingli <wl2722@columbia.edu>"]
 license = "MIT"
+readme = "README.md"
+documentation = 'https://final_project_wanyingli.readthedocs.io'
+homepage = "https://github.com/QMSS-G5072-2020/final_project_wanyingli"
+repository = "https://github.com/QMSS-G5072-2020/final_project_wanyingli"
 
 [tool.poetry.dependencies]
 python = "^3.8"
