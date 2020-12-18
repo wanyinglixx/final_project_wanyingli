@@ -250,6 +250,9 @@ def plot_adb_top10():
     df =df.groupby('countrycode')['($) millions'].sum()[:10].reset_index()
     df=df.sort_values('($) millions')
     plt.bar(df['countrycode'],df['($) millions'], alpha = 0.5)
+    plt.title('Top 10 receipient countries from the ADB since 2008')
+    plt.xlabel('country code')
+    plt.ylabel('total amounts in $ million')
     plt.show()
 
 
